@@ -1,6 +1,5 @@
 new_string = input()
 my_list = new_string.split(' ')
-print(my_list)
 number_of_string = 1
 for itm in my_list:
     if len(itm) <= 10:

@@ -3,7 +3,6 @@ seasons = ['winter', 'winter',
            'summer', 'summer', 'summer',
            'autumn', 'autumn', 'autumn',
            'winter']
-print(type(seasons))
 month = input()
 if month.isdigit():
     index = int(month)
