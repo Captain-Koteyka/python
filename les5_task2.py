@@ -8,3 +8,4 @@ with open("new_file.txt", "r", encoding='UTF-8') as my_file:
         print('Количество слов в строке ', number_of_lines, ': ', number_of_words, sep='')
         number_of_words = 0
 print('Количество строк:', number_of_lines)
+my_file.close()
