@@ -16,7 +16,7 @@ class Date:
 
     @staticmethod
     def validation(date: str):
-        date_list = num = list(map(int, date.split('-')))
+        date_list = list(map(int, date.split('-')))
         day = date_list[0]
         month = date_list[1]
         year = date_list[2]
